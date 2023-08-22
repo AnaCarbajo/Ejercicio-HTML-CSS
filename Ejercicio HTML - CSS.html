@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>Ejercicio HTML - CSS 23/08</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section class="inicio">
+        <img src="assets/img/icono.png" alt="Icono del sitio web">
+        <h1>Ejercicio HTML - CSS Ana Paula Carbajo Mereles</h1>
+        <p>Curso Codo A Codo - Comisión 23559</p>
+    </section>
+
+    <section class="servicios">
+		<div class="lista-servicios">
+			<ul>
+                <li><img src="assets/img/icono.png"><a href="#"> Servicio 1</a></li>
+                <li><img src="assets/img/icono.png"><a href="#"> Servicio 2</a></li>
+                <li><img src="assets/img/icono.png"><a href="#"> Servicio 3</a></li>
+                <li><img src="assets/img/icono.png"><a href="#"> Servicio 4</a></li>
+            </ul> 
+		</div>
+	</section>
+    
+    <section class="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Footer con información del sitio web</p>
+    </footer>
+    
+</body>
+</html>
